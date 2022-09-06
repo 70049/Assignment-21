@@ -1,0 +1,69 @@
+Q1.   Write a recursive python function to print first N natural numbers.
+Ans.   def printN(n):
+            if n>=0:
+               printN(n-1)
+               print(n)
+       printN(20)
+       
+Q2.   Write a recursive python function to print first N natural number in reverse Order.
+Ans.   def PrintN(n):
+           if n>=0:
+               print(n)
+               printN(n-1)
+       printN(20)
+       
+Q3.   Write a recursive python function to print first N odd natural number.
+Ans.   def Print_odd(n):
+            if n>=0:
+                print(n-1):
+                print(2*n+1)
+       PrintN_odd(10)
+       
+Q4.   Write a recursive python function to print first N odd natural number in Reverse order.
+Ans.   def Odd_print(n):
+            if n>=0:
+                print(2*n+1)
+                Odd_print(n-1)
+       Odd_print(10)
+       
+Q5.   Write a recursive python function to print first N even Natural numbers.
+Ans.   def Print_even(n):
+               if n>=0:
+                    Print_even(n-1)
+                    print(2*n)
+       Print_even(20)
+       
+Q6.   Write a recursive python function to print first N even natural number in reverse Order.
+Ans.   def even_Print(n):
+              if n>=0:
+                  print(2*n)
+                  even_Print(n-1)
+       even_Print(10)
+       
+Q7.   Write a recursive python function to print square of first N natural number.
+Ans.   def Sq_print(n):
+              if n>=1:
+                  Sq_print(n-1)
+                  print(n*n)
+       Sq_print(10)
+       
+Q8.   Write a recursive python function to print cube of first N natural number.
+ANs.   def Cube_print(n):
+                if n>=1:
+                  Cube_print(n-1)
+                  print(n**3)
+        Cube_print(10)
+        
+Q9.   Write a recursive python function to print first N multiple of given number.
+Ans.   def Mul_print(n,m):
+               if n>=0:
+                   print(m)
+                   Mul_print(n-n,m-1)
+       Mul_print(3,10)
+       
+Q10.  Write a recursive python function to print a number in reverse Order.
+Ans.   def rev_print(n):
+             if n>=1:
+                print(n%10,n//10)
+       rev_print(25)          
+       
